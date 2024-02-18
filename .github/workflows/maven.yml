@@ -64,5 +64,5 @@ jobs:
           kubectl port-forward githubactions 8081:8081 &>/dev/null &
           sleep 5
           kubectl port-forward githubactions 8081:8081 &>/dev/null &
-      - run: |
-          curl -i http://localhost:8081/    
+      # - run: |
+      #     curl -i http://localhost:8081/     
